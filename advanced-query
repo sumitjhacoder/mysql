@@ -1,0 +1,3 @@
+//when condition
+
+SELECT * FROM `table_name`  WHERE  `column_name`=(CASE   WHEN class='2' THEN  'I'    ELSE '0' END)
