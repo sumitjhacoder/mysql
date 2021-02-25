@@ -1,3 +1,5 @@
+<?php 
+
 //when condition
 
 SELECT * FROM `table_name`  WHERE  `column_name`=(CASE   WHEN class='2' THEN  'I'    ELSE '0' END)
@@ -15,3 +17,4 @@ u.password=CONCAT(temp.id,'p',temp.adm_no)
 SELECT column_name FROM table_name  order by REPLACE(column_name, '-', '')  desc limit 1
 
 //end
+?>
