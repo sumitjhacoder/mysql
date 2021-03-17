@@ -17,4 +17,8 @@ u.password=CONCAT(temp.id,'p',temp.adm_no)
 SELECT column_name FROM table_name  order by REPLACE(column_name, '-', '')  desc limit 1
 
 //end
+    
+ // order by date(varchar)
+    SELECT * FROM table  ORDER BY STR_TO_DATE(date_c, %d-%m-%Y) DESC;
+//end
 ?>
